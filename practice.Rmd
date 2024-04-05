@@ -59,6 +59,7 @@ ggplot(data = penguins) +
   geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
 
 ```
+
 library(palmerpenguins)
 library(ggplot2)
 data(penguins)
@@ -112,4 +113,4 @@ p+
 
 install.packages('rmarkdown')
 
-##Connecting R to Github
+##Connecting R to Github take 2
